@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAE61F3428EB18F100E390C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE61F3328EB18F100E390C3 /* AppDelegate.swift */; };
+		DAE61F3628EB18F100E390C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE61F3528EB18F100E390C3 /* SceneDelegate.swift */; };
+		DAE61F3828EB18F100E390C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE61F3728EB18F100E390C3 /* ViewController.swift */; };
+		DAE61F3B28EB18F100E390C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE61F3928EB18F100E390C3 /* Main.storyboard */; };
+		DAE61F3E28EB18F100E390C3 /* ClickerGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAE61F3C28EB18F100E390C3 /* ClickerGame.xcdatamodeld */; };
+		DAE61F4028EB18F300E390C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE61F3F28EB18F300E390C3 /* Assets.xcassets */; };
+		DAE61F4328EB18F300E390C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE61F4128EB18F300E390C3 /* LaunchScreen.storyboard */; };
+		DAE61F4E28EB18F300E390C3 /* ClickerGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE61F4D28EB18F300E390C3 /* ClickerGameTests.swift */; };
+		DAE61F5828EB18F300E390C3 /* ClickerGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE61F5728EB18F300E390C3 /* ClickerGameUITests.swift */; };
+		DAE61F5A28EB18F300E390C3 /* ClickerGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE61F5928EB18F300E390C3 /* ClickerGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAE61F4A28EB18F300E390C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE61F2828EB18F100E390C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE61F2F28EB18F100E390C3;
+			remoteInfo = ClickerGame;
+		};
+		DAE61F5428EB18F300E390C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE61F2828EB18F100E390C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE61F2F28EB18F100E390C3;
+			remoteInfo = ClickerGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAE61F3028EB18F100E390C3 /* ClickerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE61F3328EB18F100E390C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAE61F3528EB18F100E390C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAE61F3728EB18F100E390C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAE61F3A28EB18F100E390C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAE61F3D28EB18F100E390C3 /* ClickerGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClickerGame.xcdatamodel; sourceTree = "<group>"; };
+		DAE61F3F28EB18F300E390C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAE61F4228EB18F300E390C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAE61F4428EB18F300E390C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE61F4928EB18F300E390C3 /* ClickerGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE61F4D28EB18F300E390C3 /* ClickerGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameTests.swift; sourceTree = "<group>"; };
+		DAE61F5328EB18F300E390C3 /* ClickerGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE61F5728EB18F300E390C3 /* ClickerGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameUITests.swift; sourceTree = "<group>"; };
+		DAE61F5928EB18F300E390C3 /* ClickerGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAE61F2D28EB18F100E390C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE61F4628EB18F300E390C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE61F5028EB18F300E390C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAE61F2728EB18F100E390C3 = {
+			isa = PBXGroup;
+			children = (
+				DAE61F3228EB18F100E390C3 /* ClickerGame */,
+				DAE61F4C28EB18F300E390C3 /* ClickerGameTests */,
+				DAE61F5628EB18F300E390C3 /* ClickerGameUITests */,
+				DAE61F3128EB18F100E390C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAE61F3128EB18F100E390C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAE61F3028EB18F100E390C3 /* ClickerGame.app */,
+				DAE61F4928EB18F300E390C3 /* ClickerGameTests.xctest */,
+				DAE61F5328EB18F300E390C3 /* ClickerGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAE61F3228EB18F100E390C3 /* ClickerGame */ = {
+			isa = PBXGroup;
+			children = (
+				DAE61F3328EB18F100E390C3 /* AppDelegate.swift */,
+				DAE61F3528EB18F100E390C3 /* SceneDelegate.swift */,
+				DAE61F3728EB18F100E390C3 /* ViewController.swift */,
+				DAE61F3928EB18F100E390C3 /* Main.storyboard */,
+				DAE61F3F28EB18F300E390C3 /* Assets.xcassets */,
+				DAE61F4128EB18F300E390C3 /* LaunchScreen.storyboard */,
+				DAE61F4428EB18F300E390C3 /* Info.plist */,
+				DAE61F3C28EB18F100E390C3 /* ClickerGame.xcdatamodeld */,
+			);
+			path = ClickerGame;
+			sourceTree = "<group>";
+		};
+		DAE61F4C28EB18F300E390C3 /* ClickerGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE61F4D28EB18F300E390C3 /* ClickerGameTests.swift */,
+			);
+			path = ClickerGameTests;
+			sourceTree = "<group>";
+		};
+		DAE61F5628EB18F300E390C3 /* ClickerGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE61F5728EB18F300E390C3 /* ClickerGameUITests.swift */,
+				DAE61F5928EB18F300E390C3 /* ClickerGameUITestsLaunchTests.swift */,
+			);
+			path = ClickerGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAE61F2F28EB18F100E390C3 /* ClickerGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE61F5D28EB18F300E390C3 /* Build configuration list for PBXNativeTarget "ClickerGame" */;
+			buildPhases = (
+				DAE61F2C28EB18F100E390C3 /* Sources */,
+				DAE61F2D28EB18F100E390C3 /* Frameworks */,
+				DAE61F2E28EB18F100E390C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickerGame;
+			productName = ClickerGame;
+			productReference = DAE61F3028EB18F100E390C3 /* ClickerGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAE61F4828EB18F300E390C3 /* ClickerGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE61F6028EB18F300E390C3 /* Build configuration list for PBXNativeTarget "ClickerGameTests" */;
+			buildPhases = (
+				DAE61F4528EB18F300E390C3 /* Sources */,
+				DAE61F4628EB18F300E390C3 /* Frameworks */,
+				DAE61F4728EB18F300E390C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE61F4B28EB18F300E390C3 /* PBXTargetDependency */,
+			);
+			name = ClickerGameTests;
+			productName = ClickerGameTests;
+			productReference = DAE61F4928EB18F300E390C3 /* ClickerGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAE61F5228EB18F300E390C3 /* ClickerGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE61F6328EB18F300E390C3 /* Build configuration list for PBXNativeTarget "ClickerGameUITests" */;
+			buildPhases = (
+				DAE61F4F28EB18F300E390C3 /* Sources */,
+				DAE61F5028EB18F300E390C3 /* Frameworks */,
+				DAE61F5128EB18F300E390C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE61F5528EB18F300E390C3 /* PBXTargetDependency */,
+			);
+			name = ClickerGameUITests;
+			productName = ClickerGameUITests;
+			productReference = DAE61F5328EB18F300E390C3 /* ClickerGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAE61F2828EB18F100E390C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DAE61F2F28EB18F100E390C3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DAE61F4828EB18F300E390C3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DAE61F2F28EB18F100E390C3;
+					};
+					DAE61F5228EB18F300E390C3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DAE61F2F28EB18F100E390C3;
+					};
+				};
+			};
+			buildConfigurationList = DAE61F2B28EB18F100E390C3 /* Build configuration list for PBXProject "ClickerGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAE61F2728EB18F100E390C3;
+			productRefGroup = DAE61F3128EB18F100E390C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAE61F2F28EB18F100E390C3 /* ClickerGame */,
+				DAE61F4828EB18F300E390C3 /* ClickerGameTests */,
+				DAE61F5228EB18F300E390C3 /* ClickerGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAE61F2E28EB18F100E390C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE61F4328EB18F300E390C3 /* LaunchScreen.storyboard in Resources */,
+				DAE61F4028EB18F300E390C3 /* Assets.xcassets in Resources */,
+				DAE61F3B28EB18F100E390C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE61F4728EB18F300E390C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE61F5128EB18F300E390C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAE61F2C28EB18F100E390C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE61F3828EB18F100E390C3 /* ViewController.swift in Sources */,
+				DAE61F3428EB18F100E390C3 /* AppDelegate.swift in Sources */,
+				DAE61F3628EB18F100E390C3 /* SceneDelegate.swift in Sources */,
+				DAE61F3E28EB18F100E390C3 /* ClickerGame.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE61F4528EB18F300E390C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE61F4E28EB18F300E390C3 /* ClickerGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE61F4F28EB18F300E390C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE61F5A28EB18F300E390C3 /* ClickerGameUITestsLaunchTests.swift in Sources */,
+				DAE61F5828EB18F300E390C3 /* ClickerGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAE61F4B28EB18F300E390C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE61F2F28EB18F100E390C3 /* ClickerGame */;
+			targetProxy = DAE61F4A28EB18F300E390C3 /* PBXContainerItemProxy */;
+		};
+		DAE61F5528EB18F300E390C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE61F2F28EB18F100E390C3 /* ClickerGame */;
+			targetProxy = DAE61F5428EB18F300E390C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAE61F3928EB18F100E390C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE61F3A28EB18F100E390C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAE61F4128EB18F300E390C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE61F4228EB18F300E390C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAE61F5B28EB18F300E390C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAE61F5C28EB18F300E390C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAE61F5E28EB18F300E390C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5LQLSFPF6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClickerGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAE61F5F28EB18F300E390C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5LQLSFPF6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClickerGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAE61F6128EB18F300E390C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5LQLSFPF6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickerGame.app/ClickerGame";
+			};
+			name = Debug;
+		};
+		DAE61F6228EB18F300E390C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5LQLSFPF6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickerGame.app/ClickerGame";
+			};
+			name = Release;
+		};
+		DAE61F6428EB18F300E390C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5LQLSFPF6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickerGame;
+			};
+			name = Debug;
+		};
+		DAE61F6528EB18F300E390C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5LQLSFPF6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickerGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAE61F2B28EB18F100E390C3 /* Build configuration list for PBXProject "ClickerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE61F5B28EB18F300E390C3 /* Debug */,
+				DAE61F5C28EB18F300E390C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE61F5D28EB18F300E390C3 /* Build configuration list for PBXNativeTarget "ClickerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE61F5E28EB18F300E390C3 /* Debug */,
+				DAE61F5F28EB18F300E390C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE61F6028EB18F300E390C3 /* Build configuration list for PBXNativeTarget "ClickerGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE61F6128EB18F300E390C3 /* Debug */,
+				DAE61F6228EB18F300E390C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE61F6328EB18F300E390C3 /* Build configuration list for PBXNativeTarget "ClickerGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE61F6428EB18F300E390C3 /* Debug */,
+				DAE61F6528EB18F300E390C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAE61F3C28EB18F100E390C3 /* ClickerGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAE61F3D28EB18F100E390C3 /* ClickerGame.xcdatamodel */,
+			);
+			currentVersion = DAE61F3D28EB18F100E390C3 /* ClickerGame.xcdatamodel */;
+			path = ClickerGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DAE61F2828EB18F100E390C3 /* Project object */;
+}
