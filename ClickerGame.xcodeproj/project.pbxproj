@@ -17,6 +17,7 @@
 		DAE61F4E28EB18F300E390C3 /* ClickerGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE61F4D28EB18F300E390C3 /* ClickerGameTests.swift */; };
 		DAE61F5828EB18F300E390C3 /* ClickerGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE61F5728EB18F300E390C3 /* ClickerGameUITests.swift */; };
 		DAE61F5A28EB18F300E390C3 /* ClickerGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE61F5928EB18F300E390C3 /* ClickerGameUITestsLaunchTests.swift */; };
+		DAE61F6728EB1BB900E390C3 /* ViewControllerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE61F6628EB1BB900E390C3 /* ViewControllerStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DAE61F5328EB18F300E390C3 /* ClickerGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE61F5728EB18F300E390C3 /* ClickerGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameUITests.swift; sourceTree = "<group>"; };
 		DAE61F5928EB18F300E390C3 /* ClickerGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAE61F6628EB1BB900E390C3 /* ViewControllerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				DAE61F3528EB18F100E390C3 /* SceneDelegate.swift */,
 				DAE61F3728EB18F100E390C3 /* ViewController.swift */,
 				DAE61F3928EB18F100E390C3 /* Main.storyboard */,
+				DAE61F6628EB1BB900E390C3 /* ViewControllerStore.swift */,
 				DAE61F3F28EB18F300E390C3 /* Assets.xcassets */,
 				DAE61F4128EB18F300E390C3 /* LaunchScreen.storyboard */,
 				DAE61F4428EB18F300E390C3 /* Info.plist */,
@@ -263,6 +266,7 @@
 			files = (
 				DAE61F3828EB18F100E390C3 /* ViewController.swift in Sources */,
 				DAE61F3428EB18F100E390C3 /* AppDelegate.swift in Sources */,
+				DAE61F6728EB1BB900E390C3 /* ViewControllerStore.swift in Sources */,
 				DAE61F3628EB18F100E390C3 /* SceneDelegate.swift in Sources */,
 				DAE61F3E28EB18F100E390C3 /* ClickerGame.xcdatamodeld in Sources */,
 			);
@@ -449,6 +453,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +482,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
